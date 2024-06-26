@@ -997,7 +997,7 @@
 ] 
 },
 "scatter": {
- "panel_margin_lines":        0,
+ "panel_margin_lines":      0.5,
 "legend": {
  "combos": {
  "guide": "legend",
