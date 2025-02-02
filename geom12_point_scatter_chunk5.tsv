@@ -1,0 +1,222 @@
+group	colour	fill	tooltip
+1	#000000	#FFFFFF	1 combos with Area Under Min=0, Prop. predictions in finite interval=0 for size 10
+2	#000000	#FF9F83	8 combos with Area Under Min=0, Prop. predictions in finite interval=0.125 for size 10
+3	#000000	#FF7C5B	16 combos with Area Under Min=0, Prop. predictions in finite interval=0.25 for size 10
+4	#000000	#FF704F	20 combos with Area Under Min=0, Prop. predictions in finite interval=0.375 for size 10
+5	#000000	#FF805F	15 combos with Area Under Min=0, Prop. predictions in finite interval=0.5 for size 10
+6	#000000	#FFAD93	6 combos with Area Under Min=0, Prop. predictions in finite interval=0.625 for size 10
+7	#000000	#FFFFFF	1 combos with Area Under Min=0, Prop. predictions in finite interval=0.75 for size 10
+8	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.2, Prop. predictions in finite interval=0.125 for size 10
+9	#000000	#FFCDBC	3 combos with Area Under Min=0.2, Prop. predictions in finite interval=0.25 for size 10
+10	#000000	#FFCDBC	3 combos with Area Under Min=0.2, Prop. predictions in finite interval=0.375 for size 10
+11	#000000	#FFFFFF	1 combos with Area Under Min=0.2, Prop. predictions in finite interval=0.5 for size 10
+12	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.4, Prop. predictions in finite interval=0.125 for size 10
+13	#000000	#FFE0D4	2 combos with Area Under Min=0.4, Prop. predictions in finite interval=0.25 for size 10
+14	#000000	#FFA58A	7 combos with Area Under Min=0.4, Prop. predictions in finite interval=0.375 for size 10
+15	#000000	#FF997C	9 combos with Area Under Min=0.4, Prop. predictions in finite interval=0.5 for size 10
+16	#000000	#FFB59E	5 combos with Area Under Min=0.4, Prop. predictions in finite interval=0.625 for size 10
+17	#000000	#FFFFFF	1 combos with Area Under Min=0.4, Prop. predictions in finite interval=0.75 for size 10
+18	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Prop. predictions in finite interval=0.125 for size 10
+19	#000000	#FFC0AB	4 combos with Area Under Min=0.6, Prop. predictions in finite interval=0.25 for size 10
+20	#000000	#FF9F83	8 combos with Area Under Min=0.6, Prop. predictions in finite interval=0.375 for size 10
+21	#000000	#FFFFFF	1 combos with Area Under Min=0.6, Prop. predictions in finite interval=0.5 for size 10
+22	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Prop. predictions in finite interval=0.625 for size 10
+23	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Prop. predictions in finite interval=0.75 for size 10
+24	#000000	#FFFFFF	1 combos with Area Under Min=0.8, Prop. predictions in finite interval=0.25 for size 10
+25	#000000	#FFA58A	7 combos with Area Under Min=0.8, Prop. predictions in finite interval=0.375 for size 10
+26	#000000	#FF8B6C	12 combos with Area Under Min=0.8, Prop. predictions in finite interval=0.5 for size 10
+27	#000000	#FFAD93	6 combos with Area Under Min=0.8, Prop. predictions in finite interval=0.625 for size 10
+28	#000000	#FFFFFF	1 combos with Area Under Min=0.8, Prop. predictions in finite interval=0.75 for size 10
+29	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1, Prop. predictions in finite interval=0.375 for size 10
+30	#000000	#FFA58A	7 combos with Area Under Min=1, Prop. predictions in finite interval=0.5 for size 10
+31	#000000	#FF997C	9 combos with Area Under Min=1, Prop. predictions in finite interval=0.625 for size 10
+32	#000000	#FFB59E	5 combos with Area Under Min=1, Prop. predictions in finite interval=0.75 for size 10
+33	#000000	#FFFFFF	1 combos with Area Under Min=1, Prop. predictions in finite interval=0.875 for size 10
+34	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.4, Prop. predictions in finite interval=0.125 for size 10
+35	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Prop. predictions in finite interval=0.125 for size 10
+36	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Prop. predictions in finite interval=0.25 for size 10
+37	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Prop. predictions in finite interval=0.375 for size 10
+38	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Prop. predictions in finite interval=0.5 for size 10
+39	#000000	#FFFFFF	1 combos with Area Under Min=1.8, Prop. predictions in finite interval=0.25 for size 10
+40	#000000	#FFB59E	5 combos with Area Under Min=1.8, Prop. predictions in finite interval=0.375 for size 10
+41	#000000	#FF9476	10 combos with Area Under Min=1.8, Prop. predictions in finite interval=0.5 for size 10
+42	#000000	#FF9476	10 combos with Area Under Min=1.8, Prop. predictions in finite interval=0.625 for size 10
+43	#000000	#FFB59E	5 combos with Area Under Min=1.8, Prop. predictions in finite interval=0.75 for size 10
+44	#000000	#FFFFFF	1 combos with Area Under Min=1.8, Prop. predictions in finite interval=0.875 for size 10
+45	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Prop. predictions in finite interval=0.25 for size 10
+46	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Prop. predictions in finite interval=0.375 for size 10
+47	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Prop. predictions in finite interval=0.5 for size 10
+48	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Prop. predictions in finite interval=0.625 for size 10
+49	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Prop. predictions in finite interval=0.75 for size 10
+50	#000000	#FFFFFF	1 combos with Area Under Min=2.2, Prop. predictions in finite interval=0.25 for size 10
+51	#000000	#FFAD93	6 combos with Area Under Min=2.2, Prop. predictions in finite interval=0.375 for size 10
+52	#000000	#FF9476	10 combos with Area Under Min=2.2, Prop. predictions in finite interval=0.5 for size 10
+53	#000000	#FF9476	10 combos with Area Under Min=2.2, Prop. predictions in finite interval=0.625 for size 10
+54	#000000	#FFB59E	5 combos with Area Under Min=2.2, Prop. predictions in finite interval=0.75 for size 10
+55	#000000	#FFFFFF	1 combos with Area Under Min=2.2, Prop. predictions in finite interval=0.875 for size 10
+56	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.4, Prop. predictions in finite interval=0.375 for size 10
+57	#000000	#FFCDBC	3 combos with Area Under Min=2.4, Prop. predictions in finite interval=0.5 for size 10
+58	#000000	#FFCDBC	3 combos with Area Under Min=2.4, Prop. predictions in finite interval=0.625 for size 10
+59	#000000	#FFFFFF	1 combos with Area Under Min=2.4, Prop. predictions in finite interval=0.75 for size 10
+60	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.4, Prop. predictions in finite interval=0.875 for size 10
+61	#000000	#FFE0D4	2 combos with Area Under Min=2.6, Prop. predictions in finite interval=0.5 for size 10
+62	#000000	#FFA58A	7 combos with Area Under Min=2.6, Prop. predictions in finite interval=0.625 for size 10
+63	#000000	#FF997C	9 combos with Area Under Min=2.6, Prop. predictions in finite interval=0.75 for size 10
+64	#000000	#FFB59E	5 combos with Area Under Min=2.6, Prop. predictions in finite interval=0.875 for size 10
+65	#000000	#FFFFFF	1 combos with Area Under Min=2.6, Prop. predictions in finite interval=1 for size 10
+66	#000000	#FFFFFF	1 combos with Prop. predictions in finite interval=0, Area under ROC curve=1 for size 10
+67	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.125, Area under ROC curve=0.75 for size 10
+68	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.125, Area under ROC curve=0.8333 for size 10
+69	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.125, Area under ROC curve=0.9167 for size 10
+70	#000000	#FF9F83	8 combos with Prop. predictions in finite interval=0.125, Area under ROC curve=1 for size 10
+71	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.125, Area under ROC curve=1.0833 for size 10
+72	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.25, Area under ROC curve=0.5833 for size 10
+73	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.25, Area under ROC curve=0.6667 for size 10
+74	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.25, Area under ROC curve=0.75 for size 10
+75	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.25, Area under ROC curve=0.8333 for size 10
+76	#000000	#FF9F83	8 combos with Prop. predictions in finite interval=0.25, Area under ROC curve=0.9167 for size 10
+77	#000000	#FF704F	20 combos with Prop. predictions in finite interval=0.25, Area under ROC curve=1 for size 10
+78	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.25, Area under ROC curve=1.0833 for size 10
+79	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.25, Area under ROC curve=1.1667 for size 10
+80	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=0.4167 for size 10
+81	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=0.5 for size 10
+82	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=0.5833 for size 10
+83	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=0.6667 for size 10
+84	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=0.75 for size 10
+85	#000000	#FF7C5B	16 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=0.8333 for size 10
+86	#000000	#FF7C5B	16 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=0.9167 for size 10
+87	#000000	#FF6645	24 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=1 for size 10
+88	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=1.0833 for size 10
+89	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.375, Area under ROC curve=1.1667 for size 10
+90	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.25 for size 10
+91	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.3333 for size 10
+92	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.4167 for size 10
+93	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.5 for size 10
+94	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.5833 for size 10
+95	#000000	#FFCDBC	3 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.6667 for size 10
+96	#000000	#FF7958	17 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.75 for size 10
+97	#000000	#FF6947	23 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.8333 for size 10
+98	#000000	#FF8F70	11 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=0.9167 for size 10
+99	#000000	#FF7C5B	16 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=1 for size 10
+100	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=1.0833 for size 10
+101	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.5, Area under ROC curve=1.1667 for size 10
+102	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.1667 for size 10
+103	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.25 for size 10
+104	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.3333 for size 10
+105	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.4167 for size 10
+106	#000000	#FFFFFF	1 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.5 for size 10
+107	#000000	#FFAD93	6 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.5833 for size 10
+108	#000000	#FF8F70	11 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.6667 for size 10
+109	#000000	#FF7352	19 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.75 for size 10
+110	#000000	#FF9476	10 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.8333 for size 10
+111	#000000	#FFCDBC	3 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=0.9167 for size 10
+112	#000000	#FFAD93	6 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=1 for size 10
+113	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=1.0833 for size 10
+114	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.625, Area under ROC curve=1.1667 for size 10
+115	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.1667 for size 10
+116	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.25 for size 10
+117	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.3333 for size 10
+118	#000000	#FFE0D4	2 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.4167 for size 10
+119	#000000	#FFC0AB	4 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.5 for size 10
+120	#000000	#FFA58A	7 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.5833 for size 10
+121	#000000	#FF9F83	8 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.6667 for size 10
+122	#000000	#FFCDBC	3 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.75 for size 10
+123	#000000	#FFCDBC	3 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=0.8333 for size 10
+124	#000000	#FFFFFF	1 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=1 for size 10
+125	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.75, Area under ROC curve=1.1667 for size 10
+126	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.875, Area under ROC curve=0.25 for size 10
+127	#000000	#FFFFFF	1 combos with Prop. predictions in finite interval=0.875, Area under ROC curve=0.3333 for size 10
+128	#000000	#FFE0D4	2 combos with Prop. predictions in finite interval=0.875, Area under ROC curve=0.4167 for size 10
+129	#000000	#FFCDBC	3 combos with Prop. predictions in finite interval=0.875, Area under ROC curve=0.5 for size 10
+130	#000000	#FFFFFF	1 combos with Prop. predictions in finite interval=0.875, Area under ROC curve=0.5833 for size 10
+131	#FFFFFF	#7F7F7F	0 combos with Prop. predictions in finite interval=0.875, Area under ROC curve=0.6667 for size 10
+132	#000000	#FFFFFF	1 combos with Prop. predictions in finite interval=0.875, Area under ROC curve=0.75 for size 10
+133	#000000	#FFFFFF	1 combos with Prop. predictions in finite interval=1, Area under ROC curve=0.3333 for size 10
+134	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0, Area under ROC curve=0.8333 for size 10
+135	#000000	#FF0000	67 combos with Area Under Min=0, Area under ROC curve=1 for size 10
+136	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.2, Area under ROC curve=0.5 for size 10
+137	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.2, Area under ROC curve=0.6667 for size 10
+138	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.2, Area under ROC curve=0.75 for size 10
+139	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.2, Area under ROC curve=0.8333 for size 10
+140	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.2, Area under ROC curve=0.9167 for size 10
+141	#000000	#FFA58A	7 combos with Area Under Min=0.2, Area under ROC curve=1 for size 10
+142	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.2, Area under ROC curve=1.0833 for size 10
+143	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.4, Area under ROC curve=0.4167 for size 10
+144	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.4, Area under ROC curve=0.5 for size 10
+145	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.4, Area under ROC curve=0.5833 for size 10
+146	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.4, Area under ROC curve=0.6667 for size 10
+147	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.4, Area under ROC curve=0.75 for size 10
+148	#000000	#FF9F83	8 combos with Area Under Min=0.4, Area under ROC curve=0.8333 for size 10
+149	#000000	#FF7C5B	16 combos with Area Under Min=0.4, Area under ROC curve=0.9167 for size 10
+150	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.4, Area under ROC curve=1.0833 for size 10
+151	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.4, Area under ROC curve=1.1667 for size 10
+152	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Area under ROC curve=0.4167 for size 10
+153	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Area under ROC curve=0.5 for size 10
+154	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Area under ROC curve=0.5833 for size 10
+155	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Area under ROC curve=0.6667 for size 10
+156	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Area under ROC curve=0.75 for size 10
+157	#000000	#FFCDBC	3 combos with Area Under Min=0.6, Area under ROC curve=0.8333 for size 10
+158	#000000	#FF9F83	8 combos with Area Under Min=0.6, Area under ROC curve=0.9167 for size 10
+159	#000000	#FFE0D4	2 combos with Area Under Min=0.6, Area under ROC curve=1 for size 10
+160	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Area under ROC curve=1.0833 for size 10
+161	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.6, Area under ROC curve=1.1667 for size 10
+162	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.8, Area under ROC curve=0.5 for size 10
+163	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.8, Area under ROC curve=0.5833 for size 10
+164	#000000	#FFE0D4	2 combos with Area Under Min=0.8, Area under ROC curve=0.6667 for size 10
+165	#000000	#FF9F83	8 combos with Area Under Min=0.8, Area under ROC curve=0.75 for size 10
+166	#000000	#FF8767	13 combos with Area Under Min=0.8, Area under ROC curve=0.8333 for size 10
+167	#000000	#FFC0AB	4 combos with Area Under Min=0.8, Area under ROC curve=0.9167 for size 10
+168	#FFFFFF	#7F7F7F	0 combos with Area Under Min=0.8, Area under ROC curve=1 for size 10
+169	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1, Area under ROC curve=0.3333 for size 10
+170	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1, Area under ROC curve=0.4167 for size 10
+171	#000000	#FFE0D4	2 combos with Area Under Min=1, Area under ROC curve=0.5 for size 10
+172	#000000	#FFC0AB	4 combos with Area Under Min=1, Area under ROC curve=0.5833 for size 10
+173	#000000	#FFAD93	6 combos with Area Under Min=1, Area under ROC curve=0.6667 for size 10
+174	#000000	#FF9F83	8 combos with Area Under Min=1, Area under ROC curve=0.75 for size 10
+175	#000000	#FFE0D4	2 combos with Area Under Min=1, Area under ROC curve=0.8333 for size 10
+176	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1, Area under ROC curve=0.9167 for size 10
+177	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.4, Area under ROC curve=0.8333 for size 10
+178	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Area under ROC curve=0.3333 for size 10
+179	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Area under ROC curve=0.5 for size 10
+180	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Area under ROC curve=0.6667 for size 10
+181	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Area under ROC curve=0.8333 for size 10
+182	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Area under ROC curve=1 for size 10
+183	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.6, Area under ROC curve=1.0833 for size 10
+184	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=0.25 for size 10
+185	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=0.3333 for size 10
+186	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=0.4167 for size 10
+187	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=0.5 for size 10
+188	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=0.5833 for size 10
+189	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=0.6667 for size 10
+190	#000000	#FF9F83	8 combos with Area Under Min=1.8, Area under ROC curve=0.75 for size 10
+191	#000000	#FF7C5B	16 combos with Area Under Min=1.8, Area under ROC curve=0.8333 for size 10
+192	#000000	#FF9F83	8 combos with Area Under Min=1.8, Area under ROC curve=0.9167 for size 10
+193	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=1 for size 10
+194	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=1.0833 for size 10
+195	#FFFFFF	#7F7F7F	0 combos with Area Under Min=1.8, Area under ROC curve=1.1667 for size 10
+196	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Area under ROC curve=0.5833 for size 10
+197	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Area under ROC curve=0.6667 for size 10
+198	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Area under ROC curve=0.75 for size 10
+199	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2, Area under ROC curve=0.8333 for size 10
+200	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.2, Area under ROC curve=0.3333 for size 10
+201	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.2, Area under ROC curve=0.5 for size 10
+202	#000000	#FFE0D4	2 combos with Area Under Min=2.2, Area under ROC curve=0.5833 for size 10
+203	#000000	#FF9F83	8 combos with Area Under Min=2.2, Area under ROC curve=0.6667 for size 10
+204	#000000	#FF8B6C	12 combos with Area Under Min=2.2, Area under ROC curve=0.75 for size 10
+205	#000000	#FF997C	9 combos with Area Under Min=2.2, Area under ROC curve=0.8333 for size 10
+206	#000000	#FFE0D4	2 combos with Area Under Min=2.2, Area under ROC curve=0.9167 for size 10
+207	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.4, Area under ROC curve=0.25 for size 10
+208	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.4, Area under ROC curve=0.3333 for size 10
+209	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.4, Area under ROC curve=0.4167 for size 10
+210	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.4, Area under ROC curve=0.5 for size 10
+211	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.4, Area under ROC curve=0.5833 for size 10
+212	#000000	#FFE0D4	2 combos with Area Under Min=2.4, Area under ROC curve=0.6667 for size 10
+213	#000000	#FFC0AB	4 combos with Area Under Min=2.4, Area under ROC curve=0.75 for size 10
+214	#000000	#FFFFFF	1 combos with Area Under Min=2.4, Area under ROC curve=0.8333 for size 10
+215	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.6, Area under ROC curve=0.1667 for size 10
+216	#FFFFFF	#7F7F7F	0 combos with Area Under Min=2.6, Area under ROC curve=0.25 for size 10
+217	#000000	#FFE0D4	2 combos with Area Under Min=2.6, Area under ROC curve=0.3333 for size 10
+218	#000000	#FFC0AB	4 combos with Area Under Min=2.6, Area under ROC curve=0.4167 for size 10
+219	#000000	#FFAD93	6 combos with Area Under Min=2.6, Area under ROC curve=0.5 for size 10
+220	#000000	#FF9F83	8 combos with Area Under Min=2.6, Area under ROC curve=0.5833 for size 10
+221	#000000	#FFC0AB	4 combos with Area Under Min=2.6, Area under ROC curve=0.6667 for size 10

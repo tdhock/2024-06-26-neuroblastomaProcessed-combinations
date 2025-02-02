@@ -1,0 +1,2002 @@
+{
+ "geoms": {
+ "geom1_point_sizes": {
+ "geom": "point",
+"classed": "geom1_point_sizes",
+"aes": {
+ "x": "log10.size",
+"y": "value" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"help": "One dot per margin size." 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom2_tallrect_sizes": {
+ "geom": "tallrect",
+"classed": "geom2_tallrect_sizes",
+"aes": {
+ "xmin": "log10(size) - 0.5",
+"xmax": "log10(size) + 0.5",
+"clickSelects": "size" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.5,
+"help": "Gray rect shows selected margin size.",
+"clickSelects": "size",
+"help_clickSelects": "size" 
+},
+"types": {
+ "xmin": "numeric",
+"xmax": "numeric",
+"clickSelects": "numeric",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_rect_scatter": {
+ "geom": "rect",
+"classed": "geom3_rect_scatter",
+"aes": {
+ "xmin": "pmin.FPR",
+"xmax": "pmax.FPR",
+"key": "thresh.i",
+"ymin": "0",
+"ymax": "TPR",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#000000",
+"size":        1,
+"fill": "#000000",
+"alpha":      0.2,
+"help": "Shaded grey rectangles represent positive Area Under the ROC Curve, created when the FPR moves to the right.",
+"showSelected": [ "size", "combo.i" ],
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "xmin": "numeric",
+"xmax": "numeric",
+"ymin": "numeric",
+"ymax": "numeric",
+"key": "integer",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom4_rect_scatter": {
+ "geom": "rect",
+"classed": "geom4_rect_scatter",
+"aes": {
+ "xmin": "pmin.FPR",
+"xmax": "pmax.FPR",
+"key": "thresh.i",
+"ymin": "0",
+"ymax": "TPR",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"size":        1,
+"fill": "#FF0000",
+"alpha":      0.2,
+"help": "Shaded red rectangles represent negative Area Under the ROC Curve, created when the FPR moves to the left.",
+"showSelected": [ "size", "combo.i" ],
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "xmin": "numeric",
+"xmax": "numeric",
+"ymin": "numeric",
+"ymax": "numeric",
+"key": "integer",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom5_text_scatter": {
+ "geom": "text",
+"classed": "geom5_text_scatter",
+"aes": {
+ "x": "(FPR + next.FPR)/2",
+"y": "TPR/2 + FPR.diff/2",
+"key": "paste(FPR, next.FPR, TPR)",
+"label": "sprintf(\"%.3f\", total.area)",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"showSelected": [ "size", "combo.i" ],
+"help": "Red text counts negative AUC.",
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "character",
+"label": "character",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom6_text_scatter": {
+ "geom": "text",
+"classed": "geom6_text_scatter",
+"aes": {
+ "x": "(FPR + next.FPR)/2",
+"y": "TPR/2 + FPR.diff/2",
+"key": "paste(FPR, next.FPR, TPR)",
+"label": "sprintf(\"%.3f\", total.area)",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#000000",
+"showSelected": [ "size", "combo.i" ],
+"help": "Black text counts positive AUC.",
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "character",
+"label": "character",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom7_path_scatter": {
+ "geom": "path",
+"classed": "geom7_path_scatter",
+"aes": {
+ "x": "FPR",
+"y": "TPR",
+"key": "1",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "lineend": "butt",
+"linejoin": "round",
+"linemitre":        1,
+"na.rm": false,
+"na.rm": false,
+"colour": "#00BFFF",
+"size":        3,
+"help": "Blue path shows ROC curve.",
+"showSelected": [ "size", "combo.i" ],
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom8_point_scatter": {
+ "geom": "point",
+"classed": "geom8_point_scatter",
+"aes": {
+ "x": "FPR",
+"y": "TPR",
+"key": "paste(FPR, TPR)",
+"clickSelects": "thresh.i",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        3,
+"colour": "#000000",
+"fill": "#000000",
+"alpha":        1,
+"help": "Blue points emphasize discrete values on ROC curve.",
+"clickSelects": "thresh.i",
+"colour_off": "#000000",
+"fill_off": "#00BFFF",
+"alpha_off":        1,
+"showSelected": [ "size", "combo.i" ],
+"help_clickSelects": "thresh.i",
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "character",
+"clickSelects": "integer",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom9_point_scatter": {
+ "geom": "point",
+"classed": "geom9_point_scatter",
+"aes": {
+ "x": "FPR",
+"y": "TPR",
+"key": "1",
+"showSelected1": "size",
+"showSelected2": "combo.i",
+"showSelected3": "thresh.i" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"help": "Black dot shows ROC point corresponding to currently selected threshold.",
+"showSelected": [ "size", "combo.i", "thresh.i" ],
+"help_showSelected": [ "size", "combo.i", "thresh.i" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"showSelected3": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected3",
+"showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected3",
+"showSelected2",
+"PANEL" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom10_hline_scatter": {
+ "geom": "hline",
+"classed": "geom10_hline_scatter",
+"aes": {
+ "yintercept": "auc" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#7F7F7F",
+"help": "Horizontal line shows AUC=1." 
+},
+"types": {
+ "yintercept": "numeric",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom11_vline_scatter": {
+ "geom": "vline",
+"classed": "geom11_vline_scatter",
+"aes": {
+ "xintercept": "aum" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#7F7F7F",
+"help": "Vertical line shows AUM=0." 
+},
+"types": {
+ "xintercept": "numeric",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom12_point_scatter": {
+ "geom": "point",
+"classed": "geom12_point_scatter",
+"aes": {
+ "x": "xval",
+"y": "yval",
+"key": "key",
+"tooltip": "sprintf(\"%d combos with %s=%s, %s=%s for size %s\", combos, xfac, paste(xval), yfac, paste(yval), paste(size))",
+"help": "One dot per pair of possible values of AUC, AUM, and proportion of predictions in finite interval, with shades of red indicating how many ROC curves that have these values.",
+"colour": "combos.chr",
+"fill": "log10(combos)",
+"showSelected1": "size" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        6,
+"alpha":        1,
+"showSelected": "size",
+"help_showSelected": "size" 
+},
+"types": {
+ "colour": "rgb",
+"fill": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"tooltip": "character",
+"help": "character",
+"showSelected1": "factor",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"columns": {
+ "common": [
+ "x",
+"y",
+"key",
+"help",
+"PANEL",
+"group" 
+] 
+},
+"chunks": {
+ "0.001": 1,
+"0.01": 2,
+"0.1": 3,
+"1": 4,
+"10": 5,
+"100": 6,
+"1e-04": 7 
+},
+"total": 7 
+},
+"geom13_point_scatter": {
+ "geom": "point",
+"classed": "geom13_point_scatter",
+"aes": {
+ "x": "xval",
+"y": "yval",
+"key": "panel.key",
+"clickSelects": "panel.key",
+"showSelected1": "size" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        7,
+"alpha":        1,
+"fill": "transparent",
+"colour": "#000000",
+"help": "Thick black border for selected combination.",
+"alpha_off":        0,
+"showSelected": "size",
+"clickSelects": "panel.key",
+"help_showSelected": "size",
+"help_clickSelects": "panel.key" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "character",
+"clickSelects": "character",
+"showSelected1": "factor",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom14_point_scatter": {
+ "geom": "point",
+"classed": "geom14_point_scatter",
+"aes": {
+ "x": "xorig",
+"y": "yorig",
+"key": "combo.i",
+"clickSelects": "combo.i",
+"showSelected1": "size",
+"showSelected2": "panel.key" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":        1,
+"size":        4,
+"fill": "transparent",
+"colour": "#00BFFF",
+"stroke":        2,
+"help": "Dots with transparent fill represent different ROC curves with values closest to this combination.",
+"showSelected": [ "size", "panel.key" ],
+"clickSelects": "combo.i",
+"alpha_off":        1,
+"fill_off": "transparent",
+"colour_off": "#000000",
+"help_showSelected": [ "size", "panel.key" ],
+"help_clickSelects": "combo.i" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "integer",
+"clickSelects": "integer",
+"showSelected1": "numeric",
+"showSelected2": "character",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"columns": {
+ "common": [
+ "key",
+"clickSelects",
+"PANEL",
+"group" 
+] 
+},
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom15_point_scatter": {
+ "geom": "point",
+"classed": "geom15_point_scatter",
+"aes": {
+ "x": "xorig",
+"y": "yorig",
+"key": "1",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#00BFFF",
+"size":        4,
+"help": "Blue dot represents currently displayed ROC curve.",
+"showSelected": [ "size", "combo.i" ],
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected2",
+"PANEL" 
+],
+"columns": {
+ "common": [
+ "key",
+"showSelected2",
+"PANEL",
+"group" 
+] 
+},
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom16_blank_scatter": {
+ "geom": "blank",
+"classed": "geom16_blank_scatter",
+"aes": {
+ "x": "x",
+"y": "y" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"help": "Blank geom used to ensure every panel has (0,0) point." 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "factor",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom17_rect_err": {
+ "geom": "rect",
+"classed": "geom17_rect_err",
+"aes": {
+ "xmin": "min.new",
+"ymin": "0",
+"key": "thresh.i",
+"xmax": "max.new",
+"ymax": "min.fp.fn",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"fill": "#BEBEBE",
+"colour": "#BEBEBE",
+"size":        1,
+"help": "Grey rect represents Area Under Min (AUM).",
+"showSelected": [ "size", "combo.i" ],
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "xmin": "numeric",
+"xmax": "numeric",
+"ymin": "numeric",
+"ymax": "numeric",
+"key": "integer",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2" 
+],
+"subset_order": [
+ "showSelected2" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom18_segment_err": {
+ "geom": "segment",
+"classed": "geom18_segment_err",
+"aes": {
+ "x": "min.new",
+"y": "value",
+"key": "paste(variable, thresh.i)",
+"colour": "variable",
+"size": "variable",
+"xend": "max.new",
+"yend": "value",
+"showSelected1": "size",
+"showSelected2": "combo.i",
+"showSelected3": "variable" 
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"help": "Segments represent error functions.",
+"showSelected": [ "size", "combo.i", "variable" ],
+"help_showSelected": [ "size", "combo.i", "variable" ] 
+},
+"types": {
+ "colour": "rgb",
+"size": "numeric",
+"x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"key": "character",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"showSelected3": "factor",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2",
+"showSelected3" 
+],
+"subset_order": [
+ "showSelected2",
+"showSelected3" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+},
+"geom19_rect_err": {
+ "geom": "rect",
+"classed": "geom19_rect_err",
+"aes": {
+ "xmin": "min.new",
+"ymin": "-Inf",
+"xmax": "max.new",
+"ymax": "Inf",
+"key": "thresh.i",
+"clickSelects": "thresh.i",
+"showSelected1": "size",
+"showSelected2": "combo.i" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.5,
+"help": "Grey rect shows currently selected interval of thresholds, corresponding to one point on the ROC curve.",
+"clickSelects": "thresh.i",
+"showSelected": [ "size", "combo.i" ],
+"help_clickSelects": "thresh.i",
+"help_showSelected": [ "size", "combo.i" ] 
+},
+"types": {
+ "xmin": "numeric",
+"xmax": "numeric",
+"ymin": "numeric",
+"ymax": "numeric",
+"key": "integer",
+"clickSelects": "integer",
+"showSelected1": "numeric",
+"showSelected2": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [
+ "size" 
+],
+"nest_order": [
+ "showSelected2" 
+],
+"subset_order": [
+ "showSelected2" 
+],
+"chunks": {
+ "1e-04": 1,
+"0.001": 2,
+"0.01": 3,
+"0.1": 4,
+"1": 5,
+"10": 6,
+"100": 7 
+},
+"total": 7 
+} 
+},
+"time": {
+ "variable": "thresh.i",
+"ms":      500,
+"sequence": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25" ] 
+},
+"duration": {
+ "size":     1000,
+"combo.i":     1000,
+"thresh.i":      500 
+},
+"selectors": {
+ "variable": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "fp", "fn", "errors" ],
+"levels": [ "fp", "fn", "errors" ],
+"update": [
+ "geom18_segment_err" 
+] 
+},
+"size": {
+ "is.variable.value": false,
+"type": "single",
+"clickSelects": true,
+"showSelected": true,
+"chunks": "size",
+"selected": "1e-04",
+"levels": [ "1e-04", "0.001", "0.01", "0.1", "1", "10", "100" ],
+"update": [
+ "geom2_tallrect_sizes",
+"geom3_rect_scatter",
+"geom4_rect_scatter",
+"geom5_text_scatter",
+"geom6_text_scatter",
+"geom7_path_scatter",
+"geom8_point_scatter",
+"geom9_point_scatter",
+"geom12_point_scatter",
+"geom13_point_scatter",
+"geom14_point_scatter",
+"geom15_point_scatter",
+"geom17_rect_err",
+"geom18_segment_err",
+"geom19_rect_err" 
+],
+"duration":     1000 
+},
+"combo.i": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"clickSelects": true,
+"selected": "132",
+"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "150", "151", "152", "153", "154", "155", "156", "157", "158", "159", "160", "161", "162", "163", "164", "165", "166", "167", "168", "169", "170", "171", "172", "173", "174", "175", "176", "177", "178", "179", "180", "181", "182", "183", "184", "185", "186", "187", "188", "189", "190", "191", "192", "193", "194", "195", "196", "197", "198", "199", "200", "201", "202", "203", "204", "205", "206", "207", "208", "209", "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221", "222", "223", "224", "225", "226", "227", "228", "229", "230", "231", "232", "233", "234", "235", "236", "237", "238", "239", "240", "241", "242", "243", "244", "245", "246", "247", "248", "249", "250", "251", "252", "253", "254", "255", "256" ],
+"update": [
+ "geom3_rect_scatter",
+"geom4_rect_scatter",
+"geom5_text_scatter",
+"geom6_text_scatter",
+"geom7_path_scatter",
+"geom8_point_scatter",
+"geom9_point_scatter",
+"geom14_point_scatter",
+"geom15_point_scatter",
+"geom17_rect_err",
+"geom18_segment_err",
+"geom19_rect_err" 
+],
+"duration":     1000 
+},
+"thresh.i": {
+ "is.variable.value": false,
+"type": "single",
+"clickSelects": true,
+"showSelected": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25" ],
+"update": [
+ "geom8_point_scatter",
+"geom9_point_scatter",
+"geom19_rect_err" 
+],
+"duration":      500 
+},
+"panel.key": {
+ "is.variable.value": false,
+"type": "single",
+"clickSelects": true,
+"showSelected": true,
+"selected": "prop.finite round.auc 0.625 1.1667",
+"levels": [ "round.aum prop.finite 0 0", "round.aum prop.finite 0 0.125", "round.aum prop.finite 0 0.25", "round.aum prop.finite 0 0.375", "round.aum prop.finite 0 0.5", "round.aum prop.finite 0 0.625", "round.aum prop.finite 0 0.75", "round.aum prop.finite 0.2 0.125", "round.aum prop.finite 0.2 0.25", "round.aum prop.finite 0.2 0.375", "round.aum prop.finite 0.2 0.5", "round.aum prop.finite 0.4 0.125", "round.aum prop.finite 0.4 0.25", "round.aum prop.finite 0.4 0.375", "round.aum prop.finite 0.4 0.5", "round.aum prop.finite 0.4 0.625", "round.aum prop.finite 0.4 0.75", "round.aum prop.finite 0.6 0.125", "round.aum prop.finite 0.6 0.25", "round.aum prop.finite 0.6 0.375", "round.aum prop.finite 0.6 0.5", "round.aum prop.finite 0.6 0.625", "round.aum prop.finite 0.6 0.75", "round.aum prop.finite 0.8 0.25", "round.aum prop.finite 0.8 0.375", "round.aum prop.finite 0.8 0.5", "round.aum prop.finite 0.8 0.625", "round.aum prop.finite 0.8 0.75", "round.aum prop.finite 1 0.375", "round.aum prop.finite 1 0.5", "round.aum prop.finite 1 0.625", "round.aum prop.finite 1 0.75", "round.aum prop.finite 1 0.875", "round.aum prop.finite 1.4 0.125", "round.aum prop.finite 1.6 0.125", "round.aum prop.finite 1.6 0.25", "round.aum prop.finite 1.6 0.375", "round.aum prop.finite 1.6 0.5", "round.aum prop.finite 1.8 0.25", "round.aum prop.finite 1.8 0.375", "round.aum prop.finite 1.8 0.5", "round.aum prop.finite 1.8 0.625", "round.aum prop.finite 1.8 0.75", "round.aum prop.finite 1.8 0.875", "round.aum prop.finite 2 0.25", "round.aum prop.finite 2 0.375", "round.aum prop.finite 2 0.5", "round.aum prop.finite 2 0.625", "round.aum prop.finite 2 0.75", "round.aum prop.finite 2.2 0.25", "round.aum prop.finite 2.2 0.375", "round.aum prop.finite 2.2 0.5", "round.aum prop.finite 2.2 0.625", "round.aum prop.finite 2.2 0.75", "round.aum prop.finite 2.2 0.875", "round.aum prop.finite 2.4 0.375", "round.aum prop.finite 2.4 0.5", "round.aum prop.finite 2.4 0.625", "round.aum prop.finite 2.4 0.75", "round.aum prop.finite 2.4 0.875", "round.aum prop.finite 2.6 0.5", "round.aum prop.finite 2.6 0.625", "round.aum prop.finite 2.6 0.75", "round.aum prop.finite 2.6 0.875", "round.aum prop.finite 2.6 1", "prop.finite round.auc 0 1", "prop.finite round.auc 0.125 0.75", "prop.finite round.auc 0.125 0.8333", "prop.finite round.auc 0.125 0.9167", "prop.finite round.auc 0.125 1", "prop.finite round.auc 0.125 1.0833", "prop.finite round.auc 0.25 0.5833", "prop.finite round.auc 0.25 0.6667", "prop.finite round.auc 0.25 0.75", "prop.finite round.auc 0.25 0.8333", "prop.finite round.auc 0.25 0.9167", "prop.finite round.auc 0.25 1", "prop.finite round.auc 0.25 1.0833", "prop.finite round.auc 0.25 1.1667", "prop.finite round.auc 0.375 0.4167", "prop.finite round.auc 0.375 0.5", "prop.finite round.auc 0.375 0.5833", "prop.finite round.auc 0.375 0.6667", "prop.finite round.auc 0.375 0.75", "prop.finite round.auc 0.375 0.8333", "prop.finite round.auc 0.375 0.9167", "prop.finite round.auc 0.375 1", "prop.finite round.auc 0.375 1.0833", "prop.finite round.auc 0.375 1.1667", "prop.finite round.auc 0.5 0.25", "prop.finite round.auc 0.5 0.3333", "prop.finite round.auc 0.5 0.4167", "prop.finite round.auc 0.5 0.5", "prop.finite round.auc 0.5 0.5833", "prop.finite round.auc 0.5 0.6667", "prop.finite round.auc 0.5 0.75", "prop.finite round.auc 0.5 0.8333", "prop.finite round.auc 0.5 0.9167", "prop.finite round.auc 0.5 1", "prop.finite round.auc 0.5 1.0833", "prop.finite round.auc 0.5 1.1667", "prop.finite round.auc 0.625 0.1667", "prop.finite round.auc 0.625 0.25", "prop.finite round.auc 0.625 0.3333", "prop.finite round.auc 0.625 0.4167", "prop.finite round.auc 0.625 0.5", "prop.finite round.auc 0.625 0.5833", "prop.finite round.auc 0.625 0.6667", "prop.finite round.auc 0.625 0.75", "prop.finite round.auc 0.625 0.8333", "prop.finite round.auc 0.625 0.9167", "prop.finite round.auc 0.625 1", "prop.finite round.auc 0.625 1.0833", "prop.finite round.auc 0.625 1.1667", "prop.finite round.auc 0.75 0.1667", "prop.finite round.auc 0.75 0.25", "prop.finite round.auc 0.75 0.3333", "prop.finite round.auc 0.75 0.4167", "prop.finite round.auc 0.75 0.5", "prop.finite round.auc 0.75 0.5833", "prop.finite round.auc 0.75 0.6667", "prop.finite round.auc 0.75 0.75", "prop.finite round.auc 0.75 0.8333", "prop.finite round.auc 0.75 1", "prop.finite round.auc 0.75 1.1667", "prop.finite round.auc 0.875 0.25", "prop.finite round.auc 0.875 0.3333", "prop.finite round.auc 0.875 0.4167", "prop.finite round.auc 0.875 0.5", "prop.finite round.auc 0.875 0.5833", "prop.finite round.auc 0.875 0.6667", "prop.finite round.auc 0.875 0.75", "prop.finite round.auc 1 0.3333", "round.aum round.auc 0 0.8333", "round.aum round.auc 0 1", "round.aum round.auc 0.2 0.5", "round.aum round.auc 0.2 0.6667", "round.aum round.auc 0.2 0.75", "round.aum round.auc 0.2 0.8333", "round.aum round.auc 0.2 0.9167", "round.aum round.auc 0.2 1", "round.aum round.auc 0.2 1.0833", "round.aum round.auc 0.4 0.4167", "round.aum round.auc 0.4 0.5", "round.aum round.auc 0.4 0.5833", "round.aum round.auc 0.4 0.6667", "round.aum round.auc 0.4 0.75", "round.aum round.auc 0.4 0.8333", "round.aum round.auc 0.4 0.9167", "round.aum round.auc 0.4 1.0833", "round.aum round.auc 0.4 1.1667", "round.aum round.auc 0.6 0.4167", "round.aum round.auc 0.6 0.5", "round.aum round.auc 0.6 0.5833", "round.aum round.auc 0.6 0.6667", "round.aum round.auc 0.6 0.75", "round.aum round.auc 0.6 0.8333", "round.aum round.auc 0.6 0.9167", "round.aum round.auc 0.6 1", "round.aum round.auc 0.6 1.0833", "round.aum round.auc 0.6 1.1667", "round.aum round.auc 0.8 0.5", "round.aum round.auc 0.8 0.5833", "round.aum round.auc 0.8 0.6667", "round.aum round.auc 0.8 0.75", "round.aum round.auc 0.8 0.8333", "round.aum round.auc 0.8 0.9167", "round.aum round.auc 0.8 1", "round.aum round.auc 1 0.3333", "round.aum round.auc 1 0.4167", "round.aum round.auc 1 0.5", "round.aum round.auc 1 0.5833", "round.aum round.auc 1 0.6667", "round.aum round.auc 1 0.75", "round.aum round.auc 1 0.8333", "round.aum round.auc 1 0.9167", "round.aum round.auc 1.4 0.8333", "round.aum round.auc 1.6 0.3333", "round.aum round.auc 1.6 0.5", "round.aum round.auc 1.6 0.6667", "round.aum round.auc 1.6 0.8333", "round.aum round.auc 1.6 1", "round.aum round.auc 1.6 1.0833", "round.aum round.auc 1.8 0.25", "round.aum round.auc 1.8 0.3333", "round.aum round.auc 1.8 0.4167", "round.aum round.auc 1.8 0.5", "round.aum round.auc 1.8 0.5833", "round.aum round.auc 1.8 0.6667", "round.aum round.auc 1.8 0.75", "round.aum round.auc 1.8 0.8333", "round.aum round.auc 1.8 0.9167", "round.aum round.auc 1.8 1", "round.aum round.auc 1.8 1.0833", "round.aum round.auc 1.8 1.1667", "round.aum round.auc 2 0.5833", "round.aum round.auc 2 0.6667", "round.aum round.auc 2 0.75", "round.aum round.auc 2 0.8333", "round.aum round.auc 2.2 0.3333", "round.aum round.auc 2.2 0.5", "round.aum round.auc 2.2 0.5833", "round.aum round.auc 2.2 0.6667", "round.aum round.auc 2.2 0.75", "round.aum round.auc 2.2 0.8333", "round.aum round.auc 2.2 0.9167", "round.aum round.auc 2.4 0.25", "round.aum round.auc 2.4 0.3333", "round.aum round.auc 2.4 0.4167", "round.aum round.auc 2.4 0.5", "round.aum round.auc 2.4 0.5833", "round.aum round.auc 2.4 0.6667", "round.aum round.auc 2.4 0.75", "round.aum round.auc 2.4 0.8333", "round.aum round.auc 2.6 0.1667", "round.aum round.auc 2.6 0.25", "round.aum round.auc 2.6 0.3333", "round.aum round.auc 2.6 0.4167", "round.aum round.auc 2.6 0.5", "round.aum round.auc 2.6 0.5833", "round.aum round.auc 2.6 0.6667" ],
+"update": [
+ "geom13_point_scatter",
+"geom14_point_scatter" 
+] 
+} 
+},
+"plots": {
+ "sizes": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "right": [
+ "aum0",
+"auc1",
+"auc.over1" 
+],
+"top": [
+ "",
+"",
+"" 
+],
+"n": {
+ "top":        1,
+"right":        1 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2", "3" ],
+"ROW": [ 1, 2, 3 ],
+"COL": [ 1, 1, 1 ],
+"variable": [ "aum0", "auc1", "auc.over1" ],
+"SCALE_X": [ 1, 1, 1 ],
+"SCALE_Y": [ 1, 2, 3 ],
+"AXIS_Y": [ true, true, true ],
+"AXIS_X": [ false, false, true ],
+"coord_fixed": [ false, false, false ],
+"width_proportion": [        1,        1,        1 ],
+"height_proportion": [ 0.3333333, 0.3333333, 0.3333333 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       -4,
+      -3,
+      -2,
+      -1,
+       0,
+       1,
+       2 
+],
+[
+       -4,
+      -3,
+      -2,
+      -1,
+       0,
+       1,
+       2 
+],
+[
+       -4,
+      -3,
+      -2,
+      -1,
+       0,
+       1,
+       2 
+] 
+],
+"y": [
+ [
+        0,
+      20,
+      40,
+      60 
+],
+[
+       20,
+      40,
+      60 
+],
+[
+        0,
+      10,
+      20,
+      30,
+      40,
+      50 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     -4.5,
+      -4,
+    -3.5,
+      -3,
+    -2.5,
+      -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+],
+[
+     -4.5,
+      -4,
+    -3.5,
+      -3,
+    -2.5,
+      -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+],
+[
+     -4.5,
+      -4,
+    -3.5,
+      -3,
+    -2.5,
+      -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+] 
+],
+"y": [
+ [
+        0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70 
+],
+[
+       10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       -4,
+      -3,
+      -2,
+      -1,
+       0,
+       1,
+       2 
+],
+"xlab": [
+ "-4",
+"-3",
+"-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"xrange": [    -4.85,     2.85 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+      20,
+      40,
+      60 
+],
+"ylab": [
+ "0",
+"20",
+"40",
+"60" 
+],
+"yrange": [     -2.3,     70.3 ],
+"yline": false,
+"yticks": true 
+},
+"axis2": {
+ "x": [
+       -4,
+      -3,
+      -2,
+      -1,
+       0,
+       1,
+       2 
+],
+"xlab": [
+ "-4",
+"-3",
+"-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"xrange": [    -4.85,     2.85 ],
+"xline": false,
+"xticks": true,
+"y": [
+       20,
+      40,
+      60 
+],
+"ylab": [
+ "20",
+"40",
+"60" 
+],
+"yrange": [     3.55,    79.45 ],
+"yline": false,
+"yticks": true 
+},
+"axis3": {
+ "x": [
+       -4,
+      -3,
+      -2,
+      -1,
+       0,
+       1,
+       2 
+],
+"xlab": [
+ "-4",
+"-3",
+"-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"xrange": [    -4.85,     2.85 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+      10,
+      20,
+      30,
+      40,
+      50 
+],
+"ylab": [
+ "0",
+"10",
+"20",
+"30",
+"40",
+"50" 
+],
+"yrange": [     -2.4,     50.4 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Margin size of prediction wrt inf. interval",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Number of prediction combinations",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-4",
+"-3",
+"-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"ylabs": [
+ "0",
+"20",
+"40",
+"60",
+"10",
+"30",
+"50" 
+],
+"title": "Select margin size",
+"title_size": "14.4pt",
+"options": {
+ "width":      300,
+"height":      300 
+},
+"geoms": [
+ "geom1_point_sizes",
+"geom2_tallrect_sizes" 
+] 
+},
+"scatter": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "log10(combos)": {
+ "guide": "legend",
+"geoms": "point",
+"title": "log10(combos)",
+"class": "log10(combos)",
+"selector": null,
+"is_discrete": false,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pointfill": "#FF5535",
+"pointshape":       19,
+"pointcolour": "#000000",
+"pointsize":        6,
+"pointalpha":        1,
+"pointstroke":      0.5,
+"label": "1.5" 
+},
+{
+ "pointfill": "#FF9476",
+"pointshape":       19,
+"pointcolour": "#000000",
+"pointsize":        6,
+"pointalpha":        1,
+"pointstroke":      0.5,
+"label": "1.0" 
+},
+{
+ "pointfill": "#FFCBB9",
+"pointshape":       19,
+"pointcolour": "#000000",
+"pointsize":        6,
+"pointalpha":        1,
+"pointstroke":      0.5,
+"label": "0.5" 
+},
+{
+ "pointfill": "#FFFFFF",
+"pointshape":       19,
+"pointcolour": "#000000",
+"pointsize":        6,
+"pointalpha":        1,
+"pointstroke":      0.5,
+"label": "0.0" 
+} 
+] 
+} 
+},
+"strips": {
+ "right": [
+ "",
+"Prop. predictions in finite interval",
+"",
+"Area under ROC curve" 
+],
+"top": [
+ "Prop. predictions in finite interval",
+"Area Under Min",
+"",
+"" 
+],
+"n": {
+ "top":        1,
+"right":        1 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2", "3", "4" ],
+"ROW": [ 1, 1, 2, 2 ],
+"COL": [ 1, 2, 1, 2 ],
+"yfac": [ "Prop. predictions in finite interval", "Prop. predictions in finite interval", "Area under ROC curve", "Area under ROC curve" ],
+"xfac": [ "Prop. predictions in finite interval", "Area Under Min", "Prop. predictions in finite interval", "Area Under Min" ],
+"SCALE_X": [ 1, 2, 1, 2 ],
+"SCALE_Y": [ 1, 1, 2, 2 ],
+"AXIS_Y": [ true, false, true, false ],
+"AXIS_X": [ false, false, true, true ],
+"coord_fixed": [ false, false, false, false ],
+"width_proportion": [      0.5,      0.5,      0.5,      0.5 ],
+"height_proportion": [      0.5,      0.5,      0.5,      0.5 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+     0.5,
+       1 
+],
+[
+        0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+],
+[
+        0,
+     0.5,
+       1 
+],
+[
+        0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+] 
+],
+"y": [
+ [
+        0,
+     0.5,
+       1 
+],
+[
+        0,
+     0.5,
+       1 
+],
+[
+        0,
+     0.5,
+       1 
+],
+[
+        0,
+     0.5,
+       1 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2,
+    2.25,
+     2.5 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2,
+    2.25,
+     2.5 
+] 
+],
+"y": [
+ [
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1 
+],
+[
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+     0.5,
+       1 
+],
+"xlab": [
+ "0.0",
+"0.5",
+"1.0" 
+],
+"xrange": [    -0.05,     1.05 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0" 
+],
+"yrange": [    -0.05,     1.05 ],
+"yline": false,
+"yticks": true 
+},
+"axis2": {
+ "x": [
+        0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+],
+"xlab": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0",
+"2.5" 
+],
+"xrange": [    -0.13,     2.73 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0" 
+],
+"yrange": [    -0.05,     1.05 ],
+"yline": false,
+"yticks": true 
+},
+"axis3": {
+ "x": [
+        0,
+     0.5,
+       1 
+],
+"xlab": [
+ "0.0",
+"0.5",
+"1.0" 
+],
+"xrange": [    -0.05,     1.05 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0" 
+],
+"yrange": [ -0.058335, 1.225035 ],
+"yline": false,
+"yticks": true 
+},
+"axis4": {
+ "x": [
+        0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+],
+"xlab": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0",
+"2.5" 
+],
+"xrange": [    -0.13,     2.73 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0" 
+],
+"yrange": [ -0.058335, 1.225035 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0",
+"2.5" 
+],
+"ylabs": [
+ "0.0",
+"0.5",
+"1.0" 
+],
+"title": "ROC curve, AUC/AUM distribution, select prediction",
+"title_size": "14.4pt",
+"options": {
+ "width":      500,
+"height":      500 
+},
+"geoms": [
+ "geom3_rect_scatter",
+"geom4_rect_scatter",
+"geom5_text_scatter",
+"geom6_text_scatter",
+"geom7_path_scatter",
+"geom8_point_scatter",
+"geom9_point_scatter",
+"geom10_hline_scatter",
+"geom11_vline_scatter",
+"geom12_point_scatter",
+"geom13_point_scatter",
+"geom14_point_scatter",
+"geom15_point_scatter",
+"geom16_blank_scatter" 
+] 
+},
+"err": {
+ "panel_margin_lines":        0,
+"legend": {
+ "variable": {
+ "guide": "legend",
+"geoms": "path",
+"title": "variable",
+"class": "variable",
+"selector": "variable",
+"is_discrete": true,
+"legend_type": [ "colour", "size" ],
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#FF0000",
+"pathsize":        5,
+"pathlinetype":        1,
+"label": "fp" 
+},
+{
+ "pathcolour": "#00BFFF",
+"pathsize":        3,
+"pathlinetype":        1,
+"label": "fn" 
+},
+{
+ "pathcolour": "#000000",
+"pathsize":        1,
+"pathlinetype":        1,
+"label": "errors" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+       1,
+       2,
+       3,
+       4 
+] 
+],
+"y": [
+ [
+        0,
+       2,
+       4,
+       6,
+       8 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4 
+] 
+],
+"y": [
+ [
+        0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+       1,
+       2,
+       3,
+       4 
+],
+"xlab": [
+ "0",
+"1",
+"2",
+"3",
+"4" 
+],
+"xrange": [ -0.2109392, 4.429723 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+       2,
+       4,
+       6,
+       8 
+],
+"ylab": [
+ "0",
+"2",
+"4",
+"6",
+"8" 
+],
+"yrange": [     -0.4,      8.4 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Distorted prediction threshold",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Incorrectly predicted labels",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0",
+"1",
+"2",
+"3",
+"4" 
+],
+"ylabs": [
+ "0",
+"2",
+"4",
+"6",
+"8" 
+],
+"title": "Error curves, select threshold",
+"title_size": "14.4pt",
+"options": {
+ "width":      300,
+"height":      300 
+},
+"geoms": [
+ "geom17_rect_err",
+"geom18_segment_err",
+"geom19_rect_err" 
+] 
+} 
+},
+"source": "https://github.com/tdhock/max-generalized-auc/blob/master/figure-neuroblastomaProcessed-combinations-interactive.R",
+"video": "https://vimeo.com/1052818937",
+"title": "Generalized ROC curve metrics" 
+}
